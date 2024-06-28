@@ -11,7 +11,7 @@ public class FraseController {
 
     @Autowired
     private FraseService service;
-    @GetMapping("/series/frase")
+    @GetMapping("/serie/frases")
     public FraseDTO obterFraseAleatoria(){
         return service.obterFraseAleatoria();
     }

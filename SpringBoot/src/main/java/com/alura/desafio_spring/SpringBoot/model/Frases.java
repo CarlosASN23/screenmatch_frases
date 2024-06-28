@@ -53,15 +53,4 @@ public class Frases {
     public void setPoster(String poster) {
         this.poster = poster;
     }
-
-    @Override
-    public String toString() {
-        return "Frases{" +
-                "id=" + id +
-                ", titulo='" + titulo + '\'' +
-                ", frase='" + frase + '\'' +
-                ", personagem='" + personagem + '\'' +
-                ", poster='" + poster + '\'' +
-                '}';
-    }
 }
